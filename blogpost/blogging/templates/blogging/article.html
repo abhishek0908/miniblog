@@ -1,0 +1,17 @@
+{% extends 'blogging/base.html' %}
+ {% block title %} Home {% endblock title %}
+{% block content %}
+<div class="col-sm-12 mt-5">
+  <h3 class="text-white mb-4">Full Page</h3>
+  <div class="jumbotron jumbotron-fluid jombo-color m-5">
+      <div class="container p-3">
+      <h1 class="fw-bold font-weight-bold">{{posts.title}} </h1>
+      <p class="lead">
+       {{posts.desc}}
+      </p>
+    </div>
+</div>
+</div>
+
+{% endblock content %}
+
